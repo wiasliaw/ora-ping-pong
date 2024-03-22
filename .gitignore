@@ -22,3 +22,10 @@ build
 
 # CLE config file
 cle.config.ts
+
+# env
+.env
+
+# forge
+cache/
+out/

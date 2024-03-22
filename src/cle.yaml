@@ -1,0 +1,22 @@
+specVersion: 0.0.2
+apiVersion: 0.0.2
+name: ping_pong
+description: "This is an automation example of ping pong"
+
+dataSources:
+  - kind: ethereum
+    network: sepolia
+    event:
+      - address: "0x03A6D940390A0fd5630059558AfC2b6464b3cA02"
+        events:
+          - "Request(uint256)"
+
+mapping:
+  language: wasm/assemblyscript
+  file: ./mapping.ts
+  handler: handleBlocks
+
+dataDestinations:
+  - kind: ethereum
+    network: sepolia
+    address: "0x03A6D940390A0fd5630059558AfC2b6464b3cA02"
