@@ -1,66 +1,23 @@
-## Foundry
+## ora ping pong
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## cle prove
 
-Foundry consists of:
+- cle prove --prove
+  - task id: 65fdf845d0aeda03aab57751
+- cle verify 65fdf845d0aeda03aab57751
+  - success
+- question 沒有看到 automation 的觸發
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## cle publish
 
-## Documentation
+1. cle upload
+2. cle setup(need tx)
+3. cle publish(need tx)
+4. cle deposit(need tx)
 
-https://book.getfoundry.sh/
+**misc**
 
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+- ipfs hash: `QmZkS6i1MbaUXH3vk78QWPHHmS3zgSEfeLq5AWoHqMoaQS`
+- image md5: `0AC59D1F759A4CE60422FA2131D4CFD1`
+- CLE id(address): [`0xdc32c0d343ef53a89c9840cfac1a08ea03272bd5`](https://sepolia.etherscan.io/address/0xdc32c0d343ef53a89c9840cfac1a08ea03272bd5)
+- [ping pong](https://sepolia.etherscan.io/address/0x03A6D940390A0fd5630059558AfC2b6464b3cA02)
